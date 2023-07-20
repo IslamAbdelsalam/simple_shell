@@ -78,3 +78,4 @@ The `wait` system call can be used to suspend the execution of a process until o
 ## What is EOF / “end-of-file”?
 
 EOF (end-of-file) is a special character that indicates the end of a file. When a program reads a file, it will encounter an EOF character when it reaches the end of the file.
+
