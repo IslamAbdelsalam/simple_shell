@@ -1,11 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <limits.h>
-#include <errno.h>
-#include <sys/wait.h>
-char **tokenize(char *str)
+char **tokenize(char *line)
 {
-	char *line = str;
+	char *token, **tokens;
+	unsigned int i = 0;
+	tokens = malloc(sizeof(char) * 1024);
+	if (tokens == NULL)
+	{
+		return (-1);
+	}
+	token = strtok(line, " \n\t\r");
+	while (token != NULL)
+	{
+		tokens[i] = token;
+		token = strtrok(NULL, " \n\t\r");
+		i++;
+	}
+	tokens[i] = NULL;
+	return (tokens);
 }
