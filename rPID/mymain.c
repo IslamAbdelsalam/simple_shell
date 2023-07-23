@@ -1,4 +1,5 @@
 #include "main.h"
+
 int main((void)int ac, char **argv)
 {
 	char *prompt_sign = "$ ";

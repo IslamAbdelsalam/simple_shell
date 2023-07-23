@@ -5,10 +5,13 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include <stdbool.h>
-#include <errno.h>
 #include <sys/wait.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 
+int _putchar(char c);
+void _puts(char *str);
 char *which(char *cmd);
 void execute(char **argv);
 char *our_get_line();
