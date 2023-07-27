@@ -38,4 +38,3 @@ void createProc(NodeInfo *info)
 		}
 	}
 }
-
