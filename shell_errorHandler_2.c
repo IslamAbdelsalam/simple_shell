@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * putsError - display input string
+ * putsError - display input str
  * @str: the string
  *
  * Return: Nothing
