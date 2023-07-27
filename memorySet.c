@@ -31,4 +31,3 @@ void nullStr(char *arr, size_t size)
 	for (x = 0; x < size; x++)
 		arr[x] = '\0';
 }
-

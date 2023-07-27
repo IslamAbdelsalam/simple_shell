@@ -134,4 +134,3 @@ void handle_comments(char *buf)
 			break;
 		}
 }
-

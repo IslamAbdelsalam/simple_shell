@@ -102,4 +102,3 @@ int unSetEnv(NodeInfo *info, char *var)
 
 	return (info->env_changed);
 }
-

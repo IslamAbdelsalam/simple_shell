@@ -122,4 +122,3 @@ ssize_t nodeIndex(singleList *head, singleList *node)
 	}
 	return (-1);
 }
-

@@ -110,4 +110,3 @@ int _history(NodeInfo *info)
 
 	return (0);
 }
-

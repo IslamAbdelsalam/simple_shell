@@ -130,4 +130,3 @@ int replaceString(char **old, char *new)
 
 	return (1);
 }
-

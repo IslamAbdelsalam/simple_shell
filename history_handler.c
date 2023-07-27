@@ -141,4 +141,3 @@ int historyNo(NodeInfo *info)
 	}
 	return (info->hist_lines = i);
 }
-
