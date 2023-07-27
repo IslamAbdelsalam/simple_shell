@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * createProc - Forks a new process to run the command.
+ * createProc - Fork a new process to run the command.
  * @info: prameter struct
  *
  * Return: void.
