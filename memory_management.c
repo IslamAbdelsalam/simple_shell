@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * memory_set - bytes of memory area
+ * memory_set - bytes of memory
  * @s: the pointer to the memory area
  * @b: byte to be filled
  * @n: amount of bytes to be filled
