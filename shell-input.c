@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * input_buf - Buffers chained commands.
+ * input_buf - Buffers chained command
  * @info: The parameter struct that contains information
  *			about the current execution context.
  * @buf: The address of the buffer to be used for input.
