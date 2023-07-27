@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * allWc - it's act like wc in linux
+ * allWc - it act like wc in linux
  * @str: String to be parsed.
  * @separators: One or more delimiters.
  * @arr: Pointer to array where the word lengths will be stored.
