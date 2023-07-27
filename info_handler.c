@@ -67,4 +67,3 @@ void free_info(NodeInfo *info, int all)
 		_putchar(negativeOne);
 	}
 }
-
