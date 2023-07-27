@@ -11,14 +11,14 @@
 
 int allWc(char *str, char *separators, unsigned int *arr)
 {
+	int word_count = 0;
+	bool inside_word = false;
+	char *p = str;
+
 	if (!str)
 	{
 		return (0);
 	}
-
-	int word_count = 0;
-	bool inside_word = false;
-	char *p = str;
 
 	while (*p != '\0')
 	{
