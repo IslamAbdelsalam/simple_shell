@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * is_executable - Determines whether a file is an executable command.
+ * is_executable - Determines whether  file is an executable command.
  * @info: The info struct that contains information
  *			about the current execution context.
  * @path: The path to the file to be checked.
